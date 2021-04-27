@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    padding:0px 100px 0px 100px;
+}
+.topBar{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+h1{
+    margin-left: 10px;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.leftside{
+    height: 600px;
+    width:300px;
+}
+.user{
+    border:solid black 1px;
+    width: 150px;
+    height:200px;
+    margin:5px 10px 0px 0px;
+    text-align: center;
+    padding:20px;
+}
+.bottom{
+    display: flex;
+    height: 100%;
+    width:100%;
+    justify-content: center;
+}
+.likes{
+    border:solid black 1px;
+    margin:5px 0px 10px 0px;
+    padding:10px;
+    width:400px;
+    height: 100px;
+}
+.rightlike{
+    display: flex;
+    align-items: center;
+}
+.rightlike p {
+    margin-right: 10px;
+}
+.toplike{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    background-color: rgb(233, 200, 56);
+    width:50px;
+    height:25px;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    display: block;
+    margin:0px 0px 0px 38px;
+
+}
+.botUser{
+    margin-top: 50px;
+}
+.botUser h3{
+    margin-top: 10px;
+}
